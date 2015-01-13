@@ -35,7 +35,42 @@
     <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chance.cs" />
+    <Compile Include="ClassMatch.cs" />
+    <Compile Include="ConventionExecuter.cs" />
+    <Compile Include="Conventions\AgeConvention.cs" />
+    <Compile Include="Conventions\BirthdayConvention.cs" />
+    <Compile Include="Conventions\CityNameConvention.cs" />
+    <Compile Include="Conventions\CpfConvention.cs" />
+    <Compile Include="Conventions\EmailConvention.cs" />
+    <Compile Include="Conventions\IdConvention.cs" />
+    <Compile Include="Conventions\PersonNameConvention.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Generators\AgeGenerator.cs" />
+    <Compile Include="Generators\BirthdayGenerator.cs" />
+    <Compile Include="Generators\CpfGenerator.cs" />
+    <Compile Include="Generators\DateGenerator.cs" />
+    <Compile Include="Generators\DomainGenerator.cs" />
+    <Compile Include="Generators\EmailGenerator.cs" />
+    <Compile Include="Generators\GenderGenerator.cs" />
+    <Compile Include="Generators\LoremIpsum.cs" />
+    <Compile Include="Generators\MonthGenerator.cs" />
+    <Compile Include="Generators\PersonNameGenerator.cs" />
+    <Compile Include="Generators\PersonNamePrefixesGenerator.cs" />
+    <Compile Include="Generators\SyllableGenerator.cs" />
+    <Compile Include="Generators\WordGenerator.cs" />
+    <Compile Include="Generators\YearGenerator.cs" />
+    <Compile Include="IConvention.cs" />
+    <Compile Include="IGenerator.cs" />
+    <Compile Include="IStructure.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropertyMatch.cs" />
+    <Compile Include="Randomizer.cs" />
+    <Compile Include="Seeder.cs" />
+    <Compile Include="StructureCode.cs" />
+    <Compile Include="Structures\AssemblyStructure.cs" />
+    <Compile Include="Structures\ClassStructure.cs" />
+    <Compile Include="Structures\PropertyStructure.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
