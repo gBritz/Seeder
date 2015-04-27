@@ -8,4 +8,5 @@ a dotNet flexible and easy-to-use random data generator to your models.
 
 ### Simple, be happy. :)
 
+
 [![Build status](https://ci.appveyor.com/api/projects/status/0vuo0v1835v782f2?svg=true)](https://ci.appveyor.com/project/Britz/seeder)
